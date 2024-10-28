@@ -1,0 +1,33 @@
+{
+  "gestures": [
+    {
+      "name": "Backhand up",
+      "human_annotation": "Backhand up gesture - One hand moving upward repeatedly, back of the hand facing upward, palm of the hand facing down",
+      "gpt_annotation": "A person raises the right hand with the back of the hand facing upward, fingers together and palm facing down in a smooth upward motion.",
+      "human_image": "image002.png",
+      "gpt_image": "LLM Backhand up 1.jpeg"
+    },
+    {
+      "name": "Index up",
+      "human_annotation": "One hand, index finger pointing upward, moving up-down repeatedly",
+      "gpt_annotation": "Right hand, palm facing left, index finger fully extended, other fingers curled, no movement, pointing vertically upwards.",
+      "human_image": "Index up gesture 1.jpeg",
+      "gpt_image": "LLM Index up 1.jpeg"
+    },
+    {
+      "name": "Clockwise",
+      "human_annotation": "Clockwise gesture: One hand, fingers pinching knob, rotating clockwise repeatedly",
+      "gpt_annotation": "A right hand is gripping a knob with the thumb and index finger, rotating it clockwise. The remaining fingers are curled inward, not involved in the gesture.",
+      "human_image": "Clockwise gesture 1.jpeg",
+      "gpt_image": "LLM Clockwise 1.jpeg"
+    },
+    
+    {
+      "name": "Palm up",
+      "human_annotation": "Palm up gesture: One hand, horizontal position, palm facing up, dorsum facing down",
+      "gpt_annotation": "The image depicts a right hand in a \"palm up\" gesture. The hand is in a horizontal orientation with the palm fully open, facing upwards, and the dorsum facing downwards.",
+      "human_image": "Palm up gesture 1.jpeg",
+      "gpt_image": "LLM Palm up 1.jpeg"
+    }
+  ]
+}
