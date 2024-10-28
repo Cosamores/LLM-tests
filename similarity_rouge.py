@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from rouge_score import rouge_scorer
 
 ANNOTATION_PATH = os.getenv('ANNOTATION_PATH')
-IMAGE_PATH = os.getenv('IMAGE_PATH')
 OUTPUT_PATH = os.getenv('OUTPUT_PATH')
 
 # Load the JSON file

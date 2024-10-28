@@ -5,7 +5,6 @@ import json
 import matplotlib.pyplot as plt
 
 ANNOTATION_PATH = os.getenv('ANNOTATION_PATH')
-IMAGE_PATH = os.getenv('IMAGE_PATH')
 OUTPUT_PATH = os.getenv('OUTPUT_PATH')
 
 # Carregar os dados JSON
