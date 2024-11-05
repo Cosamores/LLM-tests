@@ -1,11 +1,12 @@
-import os
 import json
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 ANNOTATION_PATH = os.getenv('ANNOTATION_PATH')
+IMAGE_PATH = os.getenv('IMAGE_PATH')
 OUTPUT_PATH = os.getenv('OUTPUT_PATH')
 
 # Load JSON data

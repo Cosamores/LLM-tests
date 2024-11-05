@@ -1,10 +1,11 @@
-import os
 import json
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from rouge_score import rouge_scorer
 
 ANNOTATION_PATH = os.getenv('ANNOTATION_PATH')
+IMAGE_PATH = os.getenv('IMAGE_PATH')
 OUTPUT_PATH = os.getenv('OUTPUT_PATH')
 
 # Load the JSON file
@@ -29,9 +30,10 @@ df = pd.DataFrame({
   'Gesto': [gesture['name'] for gesture in data['gestures']],
   'Pontuação ROUGE': rouge1_scores
 })
+print("Pontuação ROUGE", rouge1_scores)
 
 # Save the results to a CSV file
-df.to_csv('{OUTPUT_PATH}/similarity_results_rouge.csv', index=False)
+df.to_csv(f'{OUTPUT_PATH}/similarity_results_rouge.csv', index=False)
 
 # Generate a chart with the results
 plt.figure(figsize=(10, 6))
@@ -39,6 +41,7 @@ plt.bar(df['Gesto'], df['Pontuação ROUGE'], color='skyblue')
 plt.title('Pontuações ROUGE-1 F-measure para Cada Gesto')
 plt.xlabel('Gesto')
 plt.ylabel('Pontuação ROUGE-1 F-measure')
+plt.xticks(rotation=45, ha='right')
 plt.grid(True)
-plt.savefig('{OUTPUT_PATH}/similarity_results_rouge_chart.png')
+plt.savefig(f'{OUTPUT_PATH}/similarity_results_rouge_chart.png')
 plt.show()

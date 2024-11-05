@@ -2,32 +2,68 @@
   "gestures": [
     {
       "name": "Backhand up",
-      "human_annotation": "Backhand up gesture - One hand moving upward repeatedly, back of the hand facing upward, palm of the hand facing down",
+      "human_annotation": "One hand moving upward repeatedly, back of the hand facing upward, palm of the hand facing down",
       "gpt_annotation": "A person raises the right hand with the back of the hand facing upward, fingers together and palm facing down in a smooth upward motion.",
-      "human_image": "image002.png",
-      "gpt_image": "LLM Backhand up 1.jpeg"
+      "original_image": "image003.png",
+      "human_image": "Backhand up human.jpeg",
+      "gpt_image": "LLM Backhand up 2.jpeg"
     },
     {
       "name": "Index up",
       "human_annotation": "One hand, index finger pointing upward, moving up-down repeatedly",
       "gpt_annotation": "Right hand, palm facing left, index finger fully extended, other fingers curled, no movement, pointing vertically upwards.",
-      "human_image": "Index up gesture 1.jpeg",
+      "original_image": "image004.png",
+      "human_image": "Index up human.jpeg",
       "gpt_image": "LLM Index up 1.jpeg"
+    },
+
+    {
+      "name": "Listen",
+      "human_annotation": "One hand, Hand near ear, stationary",
+      "gpt_annotation": "The individual has their right hand raised beside their face, with fingers slightly spread and palm facing outward, as if in a gesture of listening or indicating attention. The hand is static, positioned close to the ear, suggesting a gesture commonly associated with signaling \"I can't hear\" or \"pay attention\".",
+      "original_image": "Listen.png",
+      "human_image": "Listen human.jpeg",
+      "gpt_image": "LLM Listen.jpeg"
     },
     {
       "name": "Clockwise",
-      "human_annotation": "Clockwise gesture: One hand, fingers pinching knob, rotating clockwise repeatedly",
-      "gpt_annotation": "A right hand is gripping a knob with the thumb and index finger, rotating it clockwise. The remaining fingers are curled inward, not involved in the gesture.",
-      "human_image": "Clockwise gesture 1.jpeg",
-      "gpt_image": "LLM Clockwise 1.jpeg"
+      "human_annotation": "One hand, fingers pinching knob, rotating clockwise repeatedly",
+      "gpt_annotation": "The individual is performing an open-hand gesture with their right hand raised near head level, fingers spread apart and extended upward. The palm faces outward, angled slightly to the left, while the thumb is extended away from the other fingers. The wrist is neutral with no indication of movement, creating a \"waving\" or \"greeting\" gesture. This static hand position conveys an open, approachable stance suitable for gestures like \"hello\" or \"stop.\"",
+      "original_image": "Clockwise.png",
+      "human_image": "Clockwise human.jpeg",
+      "gpt_image": "LLM Clockwise.jpeg"
     },
-    
+    {
+      "name": "Block view",
+      "human_annotation": "One hand, palm facing outward, moving forward, once",
+      "gpt_annotation": "The individual extends their right hand forward, palm facing outward with fingers spread, directly in front of their face, creating a barrier-like gesture that suggests \"stop\" or \"do not approach.\" The hand is held close to the camera, obscuring most of the face, emphasizing a gesture of blocking or refusal.",
+      "original_image": "Block view.png",
+      "human_image": "Block view human.webp",
+      "gpt_image": "LLM Block view.webp"
+    },
     {
       "name": "Palm up",
-      "human_annotation": "Palm up gesture: One hand, horizontal position, palm facing up, dorsum facing down",
+      "human_annotation": "One hand, horizontal position, palm facing up, dorsum facing down",
       "gpt_annotation": "The image depicts a right hand in a \"palm up\" gesture. The hand is in a horizontal orientation with the palm fully open, facing upwards, and the dorsum facing downwards.",
-      "human_image": "Palm up gesture 1.jpeg",
+      "original_image": "Palm up.png",
+      "human_image": "Palm up human.jpeg",
       "gpt_image": "LLM Palm up 1.jpeg"
+    },
+    {
+      "name": "Hand waving",
+      "human_annotation": "Palm facing forward, waving left-right (repeatedly)",
+      "gpt_annotation": "The individual holds their right hand extended outward to the side, fingers spread wide and palm facing forward, as if signaling a greeting or drawing attention. The arm is raised slightly above shoulder level, suggesting an open and inviting gesture, commonly associated with a wave or a gesture to attract attention.",
+      "original_image": "Hand waving.png",
+      "human_image": "Hand waving human.webp",
+      "gpt_image": "LLM Hand waving.webp"
+    },
+    {
+      "name": "Silence cue",
+      "human_annotation": "Index finger placed on lips, stationary",
+      "gpt_annotation": "The individual has their right index finger raised vertically in front of their lips, with the rest of the fingers closed, palm facing sideways, making a \"shushing\" gesture commonly associated with requesting silence or quiet. The hand is positioned close to the face, emphasizing the intent to communicate discretion or quietness.",
+      "original_image": "Silence cue.png",
+      "human_image": "Silence cue human.webp",
+      "gpt_image": "LLM Silence cue.webp"
     }
   ]
 }

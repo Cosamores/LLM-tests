@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import cosine_similarity
 
 ANNOTATION_PATH = os.getenv('ANNOTATION_PATH')
-IMAGE_PATH = os.getenv('IMAGE_PATH')
+image_path = os.getenv('IMAGE_PATH')
 OUTPUT_PATH = os.getenv('OUTPUT_PATH')
 
 # Função para calcular o histograma de uma imagem
@@ -27,8 +27,8 @@ histogram_similarities = []
 
 # Calcular a similaridade de histograma para cada gesto
 for gesture in data['gestures']:
-  human_image_path = f"{IMAGE_PATH}/{gesture['human_image']}"
-  gpt_image_path = f"{IMAGE_PATH}/{gesture['gpt_image']}"
+  human_image_path = f"{image_path}/{gesture['human_image']}"
+  gpt_image_path = f"{image_path}/{gesture['gpt_image']}"
   
   human_hist = calc_histogram(human_image_path)
   gpt_hist = calc_histogram(gpt_image_path)
